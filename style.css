@@ -1,0 +1,148 @@
+form {
+    width: 1000px;
+    height: 1200px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    padding-left: 20px;
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    border: 1px solid #ccc;
+    width: 100%;
+    left: 0;
+}
+
+.header {
+    margin-bottom: 10px;
+}
+
+.header-1 {
+    font-size: 35px;
+    font-weight: 700;
+}
+.container {
+    margin-top: 20px;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 20px 0 7px 0;
+}
+
+select {
+    width: 500px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.gender {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-check-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-right: 10px;
+}
+
+.container-radio-often {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-pay {
+    display: flex;
+    flex-direction: column;
+}
+
+.pay-all {
+    display: flex;
+}
+
+.text-pay0 {
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.price {
+    width: 120px;
+    border-top: 2px solid #585757;
+}
+
+.text-pay1 {
+    font-weight: 600;
+    font-size: 20px;
+    transform: translate(-5px, -5px);
+}
+
+.cents-input {
+    width: 40px;
+    border-top: 2px solid #585757;
+}
+
+.text-sub {
+    margin-top: 5px;
+}
+
+textarea {
+    width: 90%;
+    height: 100px;
+    border-radius: 5px;
+    border-top: 3px solid #585757;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+th,td {
+    font-size: 14px;
+    font-weight: 400;
+    width: 100px;
+    height: 30px;
+}
+
+td {
+    text-align: center;
+}
+
+ table {
+    border: 1px solid #ccc;
+     width: 90%;
+}
+tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+tr>th {
+    font-weight: 600;
+}
+
+.th-1 {
+    width: 200px;
+}
+
+label>div {
+    transform: translateX(-2px);
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+table {
+    margin-top: 10px;
+}
